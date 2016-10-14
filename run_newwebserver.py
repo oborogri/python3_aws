@@ -22,14 +22,19 @@ from time import sleep
 end = 1
 while end < 0: 
 
-	print('  #################################################################')
-	print('  #  This script will create and launch a new Amazon EC2 instance #')
-	print('  #     You must have an AWS account and access credentials       #')
-	print('  #################################################################')
-	print('  #                                                               #')
-	print('  #      Please choose one of the following to proceed:           #')
-	print('  #                                                               #')
-	print('  #################################################################')
-	print('  #                                                               #')
-	print('  # 1. ')
-	# Creating the AWS instance requires security own groups to be defined   
+	print('  ####################################################################')
+	print('  #   This script will create and launch a new Amazon EC2 instance   #')
+	print('  #   You must have an AWS account and relevant access credentials   #')
+	print('  ####################################################################')
+	print('  #                                                                  #')
+	print('  #          Please follow the main steps to proceed:                #')
+	print('  #                                                                  #')
+	print('  ####################################################################')
+	print('  #                                                                  #')
+	print('  #    1. Create and define AWS security groups (if none avaialble)  #')
+	print('  #                                                                  #')
+	print('  #    2. Create and launch  a new Amazon EC2 instance               #')
+	print('  #                                                                  #')
+	print('  #    3.  #')
+
+	 
